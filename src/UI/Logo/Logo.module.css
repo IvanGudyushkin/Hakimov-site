@@ -1,0 +1,15 @@
+.logo{
+    width: 58px;
+    height: 58px;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    padding: 0;
+}
+.logo img {
+    width: 58px;
+    height: 58px;
+    max-width: unset;
+}

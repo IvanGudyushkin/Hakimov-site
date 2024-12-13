@@ -1,0 +1,56 @@
+.content{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    width: 430px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    text-align: left;
+}
+.itemTitle{
+    font-weight: 500;
+    font-size: var(--font-size-headline4);
+    line-height: 1.25;
+}
+.itemContent{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.year{
+    font-weight: 500;
+    font-size: var(--font-size-numeric-small);
+    line-height: 1.21429;
+}
+.description{
+    font-weight: 400;
+    font-size: var(--font-size-small-text);
+    line-height: 1.25;
+    display: inline-flex;
+    align-items:center ;
+    gap:8px;
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+}
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,8 @@
+.p{
+    font-weight: 400;
+    font-size: var(--font-size-regular-text);
+    line-height: 1.22222;
+    color: var(--color-text-black);
+    width: 420px;
+    text-align: left;
+}

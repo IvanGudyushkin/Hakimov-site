@@ -1,0 +1,43 @@
+.block{
+    height: 1080px;
+    position: relative;
+    background: var(--color-blue-very-light);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    width: 466px;
+    position: relative;
+    left: 312px;
+    top:131px;
+    text-align: left;
+}
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.title{
+    font-weight: 500;
+    font-size: var(--font-size-headline2);
+    line-height: 1.22222;
+    text-transform: uppercase;
+    color: var(--color-text-black);
+}
+.description{
+    font-weight: 400;
+    font-size: var(--font-size-caps-text);
+    line-height: 1.22222;
+    text-transform: uppercase;
+    color: var(--color-text-black);
+}
+.list {
+    width: 175px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.list li:before{
+    content: '> ';
+}

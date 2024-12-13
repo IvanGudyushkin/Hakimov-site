@@ -1,0 +1,41 @@
+[
+  {
+    "id": "msg-010207-8",
+    "date": "01.02.07",
+    "author": {
+      "id": "15.11.1974 - бомбей",
+      "name": "Шрила Прабхупада",
+      "avatarSrc": "../../Assets/Images/avatar1.png"
+    },
+    "message": "ШБ 01.02.07-8 - Понимание Бога даёт Сам Бог ",
+    "duration": "24:56",
+    "radioButtonSrc": "../../Assets/Test/RadioButton.png",
+    "song": "../../Assets/Test/urring-cat-1.mp3"
+  },
+  {
+    "id": "msg-032515",
+    "date": "03.25.15",
+    "author": {
+      "id": "13.11.1973 - нью-делли",
+      "name": "Шрила Прабхупада",
+      "avatarSrc": "../../Assets/Images/avatar2.png"
+    },
+    "message": "ШБ 03.25.15 - Ступени Бхакти. Кали юга всё оскверняет ",
+    "duration": "45:34",
+    "radioButtonSrc": "../../Assets/Test/RadioButton.png",
+    "song": "../../Assets/Test/urring-cat-1.mp3"
+  },
+  {
+    "id": "msg-032514",
+    "date": "03.25.14",
+    "author": {
+      "id": "14.11.1974 - бомбей",
+      "name": "Шрила Прабхупада",
+      "avatarSrc": "../../Assets/Images/avatar3.png"
+    },
+    "message": "ШБ 03.25.15 - Ступени Бхакти. Кали юга всё оскверняет ",
+    "duration": "56:25",
+    "radioButtonSrc": "../../Assets/Test/RadioButton.png",
+    "song": "../../Assets/Test/urring-cat-1.mp3"
+  }
+]

@@ -1,0 +1,253 @@
+.slider{
+    height: 672px;
+    position: absolute;
+    width: 100%;
+    bottom: 111px;
+}
+.container{
+    height: 100%;
+    display:flex;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+.item {
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    * {
+        transition: opacity 700ms, transform 700ms;
+    }
+}
+.item1{
+    position: absolute;
+    top:0;
+    left:-84px
+}
+.item2{
+    position: absolute;
+    bottom:0;
+    left:312px
+}
+.item3{
+    display: none;
+}
+.item4{
+    position: absolute;
+    top:0;
+    right:312px
+}
+.item5{
+    position: absolute;
+    bottom:0;
+    right:-84px
+}
+.item6{
+    position: absolute;
+    bottom:0;
+    right:-84px
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+    position: absolute;
+    right: 365px;
+    bottom: 0;
+    align-items: center;
+}
+.buttons{
+    border: 1px solid var(--color-blue-very-light-2);
+    border-radius: 100px;
+    padding: 12px;
+    width: 89px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-white);
+}
+.value {
+    font-weight: 700;
+    font-size: var(--font-size-numeric-large);
+    line-height: 1.2;
+    color: #dee6f4;
+}
+.mainItem{
+    border-radius: 30px;
+    width: 504px;
+    height: 672px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.itemContainer{
+    border-radius: 30px;
+    width: 504px;
+    height: 672px;
+    transition: opacity 700ms, transform 700ms;
+}
+.content{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 72.92%, rgba(0, 0, 0, 0.72) 100%);
+    border-radius: 30px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+.img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    top:0;
+    left:0;
+}
+.date{
+    font-size: var(--font-size-tiny-text);
+    background-color: var(--color-white);
+    border-radius: 100px;
+    padding: 12px 23px;
+    width: fit-content;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    align-items: center;
+    text-align: left;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 3px solid var(--color-white);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.text h4 {
+    font-size: var(--font-size-headline4);
+    font-weight: 500;
+    margin: 0;
+    color: var(--color-text-white);
+
+}
+.text p {
+    margin: 0;
+    font-size: var(--font-size-small-text);
+    color: var(--color-text-white);
+}
+
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutToRight {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutToLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(20%);
+        opacity: 0;
+    }
+}
+
+.fade-enter-next {
+    opacity: 1;
+    transition: opacity 700ms, transform 700ms;
+    animation: slideInFromRight 700ms forwards;
+}
+
+.fade-enter-active-next {
+    opacity: 0;
+}
+
+.fade-exit-next {
+    opacity: 0;
+    transition: opacity 700ms, transform 700ms;
+    animation: slideOutToRight 700ms forwards;
+}
+
+.fade-exit-active-next {
+    opacity: 1;
+}
+
+.fade-enter-prev {
+    opacity: 1;
+    transition: opacity 700ms, transform 700ms;
+    animation: slideInFromLeft 700ms forwards;
+}
+
+.fade-enter-active-prev {
+    opacity: 0;
+}
+
+.fade-exit-prev {
+    opacity: 0;
+    transition: opacity 700ms, transform 700ms;
+    animation: slideOutToLeft 700ms forwards;
+}
+
+.fade-exit-active-prev {
+    opacity: 1;
+}
+
+
+/*.fade-enter {*/
+/*    opacity: 0;*/
+/*    transform: translateX(100%);*/
+/*}*/
+
+/*.fade-enter-active {*/
+/*    opacity: 1;*/
+/*    transform: translateX(0);*/
+/*    transition: opacity 300ms, transform 300ms;*/
+/*    animation: slideInFromRight 300ms forwards;*/
+/*}*/
+
+/*.fade-exit {*/
+/*    opacity: 1;*/
+/*    transform: translateX(0);*/
+/*}*/
+
+/*.fade-exit-active {*/
+/*    opacity: 0;*/
+/*    transform: translateX(100%);*/
+/*    transition: opacity 300ms, transform 300ms;*/
+/*    animation: slideOutToRight 300ms forwards;*/
+/*}*/

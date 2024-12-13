@@ -1,0 +1,35 @@
+.block{
+    width: 100%;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    overflow: hidden;
+}
+.row1{
+    width: 1560px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+.p{
+    width: 636px;
+}
+.gallery{
+    display: flex;
+    gap:24px;
+    width: auto;
+    height: 616px;
+    justify-content: center;
+    margin-left: 120px;
+}
+.image{
+    height: 496px;
+    width: auto;
+    border-radius: 30px;
+    margin-top: auto;
+    &:nth-child(even){
+        margin-top: unset;
+    }
+}

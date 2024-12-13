@@ -1,0 +1,47 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    width: 1560px;
+    align-items: flex-end;
+    margin: 0 auto 120px auto;
+}
+
+.row2{
+    display: inline-flex;
+    gap: 24px;
+    width: 1428px;
+}
+
+.item{
+    padding: 30px;
+    height: 219px;
+    width: 372px;
+    border-radius: 30px;
+    border: 1px solid var(--color-black);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.dateRange{
+    font-weight: 500;
+    font-size: var(--font-size-headline3);
+    margin: 0 0 36px 0;
+}
+.format{
+    background-color: var(--color-blue-very-light);
+    border-radius: 100px;
+    padding: 4px 12px;
+    font-size: var(--font-size-tiny-text);
+    width: fit-content;
+    height: 24px;
+    margin-bottom:12px ;
+}
+.eventName {
+    font-weight: 500;
+    font-size: var(--font-size-headline5);
+    margin-bottom: 6px;
+}
+.location {
+    font-size: var(--font-size-medium-text);
+}

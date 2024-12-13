@@ -1,0 +1,18 @@
+.button{
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s ease-in-out;
+}
+.button img {
+    width:48px;
+    height: 48px;
+    max-width: unset;
+}
+.button:hover{
+    scale: 1.1;
+}

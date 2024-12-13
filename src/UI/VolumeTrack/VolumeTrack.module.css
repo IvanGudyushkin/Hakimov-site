@@ -1,0 +1,28 @@
+.volume {
+    position: relative;
+}
+
+.verticalSlider{
+    position: absolute;
+    top:-205px;
+    left: -8px;
+    border: 1px solid #cad6ec;
+    border-radius: 20px;
+    width: 48px;
+    height: 189px;
+    background: #f0f0f0;
+    opacity: 1;
+    display: flex;
+    padding: 20px 14px;
+}
+.slider{
+    width: 8px;
+}
+.button{
+    cursor: pointer;
+    height: 32px;
+    *{
+        width: 32px !important;
+        height: 32px !important;
+    }
+}

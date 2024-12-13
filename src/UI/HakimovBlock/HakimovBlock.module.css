@@ -1,0 +1,8 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    width: 1560px;
+    align-items: flex-end;
+    margin: 0 auto 120px auto;
+}

@@ -1,0 +1,131 @@
+.lastBlock {
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+    width: 1720px;
+    align-items: center;
+    margin: 0 auto 80px auto;
+}
+.feedback {
+    padding: 80px;
+    background-color: var(--color-blue-very-light-2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 30px;
+}
+.feedbackContent{
+    display: flex;
+    gap:40px;
+    flex-direction: column;
+    width: 900px;
+}
+.title {
+    font-weight: 500;
+    font-size: var(--font-size-quote-large);
+    line-height: 1.2;
+    color: var(--color-text-black);
+    text-align: left;
+}
+.input{
+    display: inline-flex;
+    gap: 16px;
+}
+.inputCol{
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+}
+.personality, .personality a{
+    font-weight: 400;
+    font-size: var(--font-size-minuscule-text);
+    line-height: 1.16667;
+    color: var(--color-text-gray);
+    text-align: left;
+}
+.button {
+    background: var(--color-black);
+    width: 198px;
+    height: 50px;
+    color: var(--color-white);
+}
+.personality{
+    padding: 9px 24px;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.socialTitle{
+    font-size: var(--font-size-headline4);
+    text-align: left;
+}
+.socialButtons{
+    display: inline-flex;
+    gap:12px
+}
+.menu{
+    width: 1560px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.menuCol{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+    h5{
+        margin: 0;
+        font-size: var(--font-size-caps-text);
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .menuColItems{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        font-size: var(--font-size-menu-text);
+    }
+}
+.lastFrame {
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    margin-bottom: 60px;
+}
+.lastFrameCol1 {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 636px;
+    text-align: left;
+    position: relative;
+}
+.quote {
+    margin-top: 83px;
+    font-weight: 500;
+    font-size: var(--font-size-quote-large);
+    line-height: 1.2;
+}
+.sourse{
+    font-weight: 400;
+    font-size: var(--font-size-small-text);
+    line-height: 1.25;
+    display: inline-flex;
+    gap:8px;
+}
+.lastlast{
+    font-weight: 400;
+    font-size: var(--font-size-small-text);
+    color: var(--color-text-gray);
+    position: absolute;
+    bottom: 0;
+}
+.lastFrameCol2{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    overflow: hidden;
+}

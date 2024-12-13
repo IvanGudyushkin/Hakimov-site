@@ -1,0 +1,68 @@
+.background{
+    background-color: var(--color-blue-very-light-2);
+    padding: 80px;
+    margin-bottom: 120px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    width: 1560px;
+    align-items: flex-end;
+    margin: 0 auto 120px auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    width: 1560px;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.row2 {
+    display: inline-flex;
+    gap:24px;
+}
+.mainNew{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    height: 588px;
+    align-items: flex-start;
+    text-align: left;
+}
+.img{
+    height: 432px;
+    max-width: 100%;
+    border-radius: 30px;
+    margin-bottom:24px ;
+}
+.date{
+    font-size: var(--font-size-medium-text);
+    margin-bottom: 16px;
+}
+.container{
+    display: inline-flex;
+    gap: 12px;
+    margin-bottom:12px ;
+}
+.eventCategory{
+    background-color: var(--color-blue-very-light);
+    border-radius: 100px;
+    padding: 4px 12px;
+    font-size: var(--font-size-tiny-text);
+    width: fit-content;
+    height: 24px;
+}
+.mainNew h4{
+    font-size: var(--font-size-headline5);
+    font-weight: 500;
+    margin: 0;
+}
+.containerLecture{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:24px;
+    width: 768px;
+}

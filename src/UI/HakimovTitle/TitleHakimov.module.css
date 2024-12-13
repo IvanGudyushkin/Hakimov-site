@@ -1,0 +1,23 @@
+.row1{
+    width: 1428px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.row1 h4{
+    font-size: var(--font-size-headline2);
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+.row1 span{
+    font-size: var(--font-size-headline4);
+    display: inline-flex;
+    align-items: center;
+    gap:20px;
+    font-weight: 500;
+}
+.title{
+    display: inline-flex;
+    gap:32px;
+}
